@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.Carousel-section-heading {
+    margin: 100px 0;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+}
+
+.contact-section {
+    margin: 100px 0 0;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+}
+
+.carousel-item {
+    width: 50%;
+}
+
+.carousel-img {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.First-div {
+    height: 1027px;
+    margin-top: 50px;
+}
+
+.First-div-baby-one {
+    display: inline-block;
+    text-align: center;
+}
+
+.First-div-baby-two {
+    display: inline-block;
+}
+
+.First-div-baby-two-img {
+    object-fit: cover;
+    width: 100%;
+    height: 1027px; 
+}
+
+.First-div-baby-one-text {
+    position: relative;
+    top: 513.5px;
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+}
+
+.First-div-baby-one-btn {
+    position: relative;
+    top: 513.5px;
+    margin: 20px 10px 0;
+}
+
+.Form-btn {
+    top: 513.5px;
+    margin: 20px 10px 0;
+}
+
+.form-label {
+    color: white;
+    margin-top: 20px;
+}
+
+.Footer {
+    text-align: center;
+}
+
+.Footer-content {
+    position: relative;
+    top: 10px;
+    font-size: small;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.nav-brand-name {
+    color: white;
+}
+
+.nav-list:hover {
+    color: goldenrod;
+}
+
+.nav-brand-name:hover {
+    color: goldenrod;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.Partnerships-section-div {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Partnerships-section-h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.Partnerships-section-second-headings {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.Partnership-section-para {
+    margin-bottom: 50px;
+}
+
+.Second-div {
+    margin-top: 230px;
+    text-align: center;
+}
+
+.Second-div-heading {
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Second-div-para {
+    margin-bottom: 50px;
+}
+
+.Second-div-button {
+    animation: Second-div-button .99s infinite;
+    margin-bottom: 30px;
+}
+
+.Socials-div-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.Socials-h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.Socials-section-links {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+@keyframes Second-div-button {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -25px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
